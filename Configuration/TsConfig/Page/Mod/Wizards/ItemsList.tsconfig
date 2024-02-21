@@ -1,0 +1,16 @@
+mod {
+    wizards.newContentElement.wizardItems.plugins {
+        elements {
+            itemslist {
+                iconIdentifier = glossary-plugin-itemslist
+                title = LLL:EXT:glossary/Resources/Private/Language/locallang_db.xlf:tx_glossary_itemslist.plugin_name
+                description = LLL:EXT:glossary/Resources/Private/Language/locallang_db.xlf:tx_glossary_itemslist.plugin_description
+                tt_content_defValues {
+                    CType = list
+                    list_type = glossary_itemslist
+                }
+            }
+        }
+        show = *
+    }
+}

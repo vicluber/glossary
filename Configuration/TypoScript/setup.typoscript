@@ -1,0 +1,65 @@
+plugin.tx_glossary_itemslist {
+    view {
+        templateRootPaths.0 = EXT:glossary/Resources/Private/Templates/
+        partialRootPaths.0 = EXT:glossary/Resources/Private/Partials/
+        layoutRootPaths.0 = EXT:glossary/Resources/Private/Layouts/
+    }
+}
+###########################################################
+####             Including jquery-listnav              ####
+#### From https://github.com/esteinborn/jquery-listnav ####
+###########################################################
+page {
+    includeCSS {
+        glossary-listnav = EXT:glossary/Resources/Public/Css/listnav.css
+    }
+    includeJSFooterlibs {
+        glossary-listnav = EXT:glossary/Resources/Public/JavaScript/jquery-listnav.js
+        glossary-main = EXT:glossary/Resources/Public/JavaScript/glossary-main.js
+    }
+}
+############## Registering Item page title provider for redefining the document page title ###############
+config.pageTitleProviders {
+    GlossaryItem {
+        provider = Effective\Glossary\PageTitle\ItemPageTitleProvider
+        before = record
+        after = altPageTitle
+    }
+}
+############## Configuring record links for golssary ###############
+config.recordLinks.ItemsRecords {
+   typolink {
+      parameter = {$plugin.tx_glossary.itemsDetailsPid}
+      additionalParams.data = field:uid
+      additionalParams.wrap = &tx_glossary_itemsdetail[action]=show&tx_glossary_itemsdetail[controller]=Item&tx_glossary_itemsdetail[item]=|
+   }
+}
+######################################## SEO Sitexml config ##############################################
+plugin.tx_seo {
+    config {
+        xmlSitemap {
+            sitemaps {
+                glossary {
+                    provider = TYPO3\CMS\Seo\XmlSitemap\RecordsXmlSitemapDataProvider
+                    config {
+                        table = tx_glossary_domain_model_item
+                        lastModifiedField = tstamp
+                        pid = {$plugin.tx_glossary.itemsStoragePid}
+                        recursive = 2
+                        url {
+                            pageId = {$plugin.tx_glossary.itemsDetailsPid}
+                            fieldToParameterMap {
+                                uid = tx_glossary_itemsdetail[item]
+                            }
+
+                            additionalGetParameters {
+                                tx_glossary_itemsdetail.controller = Item
+                                tx_glossary_itemsdetail.action = show
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

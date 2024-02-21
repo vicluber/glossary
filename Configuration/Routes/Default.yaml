@@ -1,0 +1,16 @@
+routeEnhancers:
+  GlossaryListPlugin:
+    type: Extbase
+    extension: Glossary
+    plugin: Itemsdetail
+    limitToPages: [42]
+    routes:
+      - routePath: '/{item_path_segment}'
+        _controller: 'Item::show'
+        _arguments:
+          item_path_segment: 'item'
+    aspects:
+      item_path_segment:
+        type: PersistedAliasMapper
+        tableName: tx_glossary_domain_model_item
+        routeFieldName: path_segment

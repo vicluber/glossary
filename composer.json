@@ -1,0 +1,29 @@
+{
+    "name": "effective/glossary",
+    "type": "typo3-cms-extension",
+    "description": "",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Victor Willhuber",
+            "role": "Developer"
+        }
+    ],
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "typo3/cms-core": "^11.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Effective\\Glossary\\": "Classes"
+        }
+    },
+    "replace": {
+        "typo3-ter/Glossary": "self.version"
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "glossary"
+        }
+    }
+}

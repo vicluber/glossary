@@ -1,0 +1,59 @@
+
+
+/*
+	STYLE SHEET FOR JQUERY LISTNAV PLUGIN V 3.0.0, 11/22/2017
+	For more information, visit http://esteinborn.github.com/jquery-listnav
+
+
+    ALL STYLE RELATED SELECTORS FROM THE OFFICIAL REPO HAVE BEEN REMOVED BECAUSE THEY DONT BELONG HERE
+*/
+.listNav,
+.ln-letters {
+  overflow: hidden;
+  font-size:1rem;
+}
+
+.listNavHide {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+}
+
+.letterCountShow {
+  display: block;
+}
+
+.ln-letters a {
+    display: block;
+    float: left;
+    font-size: 1rem;
+    padding: 0.1rem 0.5rem;
+}
+
+.ln-letter-count {
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+.ln-letters{
+border:0px !important}
+
+img.glossary-item-image,
+.tx-glossary .thumb img{
+	width:100% !important;
+	margin-bottom:2rem;
+}
+
+
+ul#glossarList{
+margin:0px
+}
+
+
+
+/*# sourceMappingURL=listnav.css.map */

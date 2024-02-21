@@ -1,0 +1,6 @@
+plugin.tx_glossary {
+    # Set the page id of the page that holds the Items Details plugin (check setup.typoscript for reference)
+    itemsDetailsPid =
+    # Set the page id of the system storage that holds the Items (check setup.typoscript for reference)
+    itemsStoragePid =
+}

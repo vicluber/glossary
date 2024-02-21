@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:glossary/Resources/Private/Language/locallang.xlf" date="2022-10-25T19:06:39Z" product-name="glossary">
+		<header/>
+		<body>
+			<trans-unit id="tx_glossary_domain_model_item" resname="tx_glossary_domain_model_item">
+				<source>Item</source>
+			</trans-unit>
+			<trans-unit id="tx_glossary_domain_model_item.term" resname="tx_glossary_domain_model_item.term">
+				<source>Term</source>
+			</trans-unit>
+			<trans-unit id="tx_glossary_domain_model_item.file" resname="tx_glossary_domain_model_item.file">
+				<source>File</source>
+			</trans-unit>
+			<trans-unit id="tx_glossary_domain_model_item.read_more" resname="tx_glossary_domain_model_item.read_more">
+				<source>Read more</source>
+			</trans-unit>
+			
+			<trans-unit id="tx_glossary_domain_model_item.back_to_overview" resname="tx_glossary_domain_model_item.back_to_overview">
+				<source>Back to overview</source>
+			</trans-unit>
+			
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,3 @@
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:glossary/Configuration/TsConfig/Page/TCEMAIN.tsconfig">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:glossary/Configuration/TsConfig/Page/Mod/Wizards/ItemsList.tsconfig">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:glossary/Configuration/TsConfig/Page/Mod/Wizards/ItemsDetail.tsconfig">

@@ -1,0 +1,16 @@
+#
+# TCEMAIN
+#
+TCEMAIN {
+    linkHandler {
+        ItemsRecords {
+            handler = TYPO3\CMS\Recordlist\LinkHandler\RecordLinkHandler
+            label = Glossary records
+            configuration {
+                table = tx_glossary_domain_model_item
+            }
+            displayAfter = url
+            scanBefore = page
+        }
+    }
+}

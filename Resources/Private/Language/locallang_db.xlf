@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:glossary/Resources/Private/Language/locallang_db.xlf" date="2022-10-25T19:06:39Z" product-name="glossary">
+		<header/>
+		<body>
+			<trans-unit id="tx_glossary_domain_model_item" resname="tx_glossary_domain_model_item">
+				<source>Items</source>
+			</trans-unit>
+			<trans-unit id="tx_glossary_domain_model_item.term" resname="tx_glossary_domain_model_item.term">
+				<source>Term</source>
+			</trans-unit>
+			<trans-unit id="tx_glossary_domain_model_item.file" resname="tx_glossary_domain_model_item.file">
+				<source>File</source>
+			</trans-unit>
+			<trans-unit id="tx_glossary_domain_model_item.name" resname="tx_glossary_domain_model_item.name">
+				<source>List Items</source>
+			</trans-unit>
+			<trans-unit id="tx_glossary_domain_model_item.description" resname="tx_glossary_domain_model_item.description">
+				<source>Description</source>
+			</trans-unit>
+			<trans-unit id="tx_glossary_domain_model_item.teaser" resname="tx_glossary_domain_model_item.teaser">
+				<source>Teaser</source>
+			</trans-unit>
+			<trans-unit id="tx_glossary_itemslist.plugin_description" resname="tx_glossary_itemslist.plugin_description">
+				<source>Frontend rendering for the Glossary overview</source>
+			</trans-unit>
+			<trans-unit id="tx_glossary_itemslist.plugin_name" resname="tx_glossary_itemslist.plugin_name">
+				<source>Glossary overview list</source>
+			</trans-unit>
+			<trans-unit id="tx_glossary_itemsdetail.plugin_description" resname="tx_glossary_itemsdetail.plugin_description">
+				<source>Frontend rendering for the Glossary item's details</source>
+			</trans-unit>
+			<trans-unit id="tx_glossary_itemsdetail.plugin_name" resname="tx_glossary_itemsdetail.plugin_name">
+				<source>Glossary items detail</source>
+			</trans-unit>
+			<trans-unit id="tx_glossary_domain_model_item.seo_tab" resname="tx_glossary_domain_model_item.seo_tab">
+				<source>SEO</source>
+			</trans-unit>
+			<trans-unit id="tx_glossary_domain_model_item.meta_title" resname="tx_glossary_domain_model_item.meta_title">
+				<source>Title for search engines</source>
+			</trans-unit>
+			<trans-unit id="tx_glossary_domain_model_item.meta_description" resname="tx_glossary_domain_model_item.meta_description">
+				<source>Description</source>
+			</trans-unit>
+			<trans-unit id="tx_glossary_domain_model_item.path_segment" resname="tx_glossary_domain_model_item.path_segment">
+				<source>URL segment/slug</source>
+			</trans-unit>
+			<trans-unit id="tx_glossary_domain_model_item.index_this_page" resname="tx_glossary_domain_model_item.index_this_page">
+				<source>Index this page</source>
+			</trans-unit>
+			<trans-unit id="tx_glossary_domain_model_item.follow_this_page" resname="tx_glossary_domain_model_item.follow_this_page">
+				<source>Follow this page</source>
+			</trans-unit>
+			<trans-unit id="tx_glossary_domain_model_item.robot_instructions" resname="tx_glossary_domain_model_item.robot_instructions">
+				<source>Robot instructions</source>
+			</trans-unit>
+			<trans-unit id="tx_glossary_domain_model_item.general_seo_settings" resname="tx_glossary_domain_model_item.general_seo_settings">
+				<source>General SEO settings</source>
+			</trans-unit>
+			<trans-unit id="tx_glossary_domain_model_item.canonical" resname="tx_glossary_domain_model_item.canonical">
+				<source>Canonical</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
